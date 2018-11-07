@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <title>Benjamin Streit - EECS 388</title>
+  </head>
+
+  <body>
+
+    <!--
+    Home modal
+    -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal_home" data-keyboard="false" data-backdrop="static">
+      <div class="modal-dialog modal-lg" role="document" id="modal_slideshow_dialog">
+        <div class="modal-content" id="modal_slideshow_content">
+          <div class="modal-header">
+            <h5 class="modal-title">Exam II</h5>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col">
+                <h6 class="modal-title">Lectures</h5>
+                <button t pe="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/lectures/EECS_388_TICodeComposer_B20828.pdf';">
+                  TI Code Composer Studio
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/lectures/EECS_388_IntroMicroprocessors_B30829.pdf';">
+                  Introduction to Microprocessors
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/lectures/EECS_388_CIntro_B60829.pdf';">
+                  Introduction to C
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/lectures/EECS_388_FreeRTOS_B71019.pdf';">
+                  Free RTOS
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/lectures/EECS_388_GPIO_B80904.pdf';">
+                  GPIO
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/lectures/EECS_388_FlowCharts_B70131.pdf';">
+                  Flowcharts
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/lectures/EECS_388_ADC_B70222.pdf';">
+                  ADC
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/lectures/EECS_388_Timers_PWM_B81023.pdf';">
+                  Timers and PWM
+                </button>
+              </div>
+              <div class="col">
+                <h6 class="modal-title">Datasheets</h5>
+                <button t pe="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/datasheets/TI_TIVA_DriverLib_UG-2.1.0.12573.pdf';">
+                  DriverLib
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/datasheets/TI_TM4C1294NCPDT.pdf';">
+                  TM4C1294
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h6 class="modal-title">Homework</h5>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/homework/EECS_388_HW_01.pdf';">
+                  HW I
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/homework/EECS_388_HW_02.pdf';">
+                  HW II
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/homework/EECS_388_HW_03.pdf';">
+                  HW III
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/homework/EECS_388_HW_04.pdf';">
+                  HW IV
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/homework/EECS_388_HW_05.pdf';">
+                  HW V
+                </button>
+              </div>
+              <div class="col">
+                <h6 class="modal-title">Homework Solutions</h5>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/homework/solutions/EECS388_HW_05_Soln_B81030.pdf';">
+                  HW V Solutions
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h6 class="modal-title">Laboratory Briefs</h5>
+                <button t pe="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/EECS388_Lab_02.pdf';">
+                  Laboratory II - Speakerbuzz
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/EECS388_Lab_03.pdf';">
+                  Laboratory III - Button Input
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/EECS388_Lab_04.pdf';">
+                  Laboratory IV - LED
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/EECS388_Lab_05.pdf';">
+                  Laboratory V - ADC
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/EECS388_Lab_06.pdf';">
+                  Laboratory VI - ADC Multiple Measurements
+                </button>
+              </div>
+              <div class="col">
+                <h6 class="modal-title">Laboratory Reports</h5>
+                <button t pe="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/eecs_388_lab_report_2.pdf';">
+                  Laboratory II - Speakerbuzz
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/eecs_388_lab_report_3.pdf';">
+                  Laboratory III - Button Input
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/eecs_388_lab_report_4.pdf';">
+                  Laboratory IV - LED
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/eecs_388_lab_report_5.pdf';">
+                  Laboratory V - ADC
+                </button>
+                <button type="button" class="btn btn-raised btn-primary form-control" onclick="javascript: location.href='../resources/laboratories/eecs_388_lab_report_6.pdf';">
+                  Laboratory VI - ADC Multiple Measurements
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <p class="text-muted" style="margin-right:0.5vw;">
+              Created for EECS 388
+            </p>
+          </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, SnackbarJS, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <!-- SnackbarJS plugin -->
+    <script src="https://cdn.rawgit.com/FezVrasta/snackbarjs/1.1.0/dist/snackbar.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+    <!-- Custom JS -->
+    <script src="../js/ModalManager.js"></script>
+    <script src="../js/home.js"></script>
+  </body>
+</html>
